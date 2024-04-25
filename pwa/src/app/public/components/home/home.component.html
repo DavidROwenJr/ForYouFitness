@@ -1,15 +1,19 @@
 <mat-toolbar>
     <div class="container">
         <mat-toolbar-row>
-            <img class="toolbar" src="../../../assets/ForYouFitnessLogo.png" />
-            <button mat-stroked-button>For You</button>
-            <button mat-stroked-button>About Me</button>
-            <button mat-stroked-button>Offerings</button>
-            <button mat-stroked-button>Contact</button>
+            <button mat-button color="primary">
+                <img class="toolbar" src="../../../assets/ForYouFitnessLogo.png" />
+            </button>
+            <button mat-button>For You</button>
+            <button mat-button>About Me</button>
+            <button mat-button>Offerings</button>
+            <button mat-button>Contact</button>
             <span class="spacer"></span>
             <mat-divider [vertical]="true"></mat-divider>
-            <button mat-icon-button>
-                <mat-icon>login</mat-icon>
+            <button mat-button color="accent">
+                <span class="myButton">
+                    <mat-icon>login</mat-icon>Login
+                </span>
             </button>
         </mat-toolbar-row>
     </div>

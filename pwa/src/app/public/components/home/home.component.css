@@ -1,13 +1,21 @@
 img.toolbar {
-  height: 100%;
   width: auto;
-  margin-right: 2vh;
+  height: 60px;
+}
+.mat-toolbar-row .mat-button{
+  line-height: 60px;
 }
 .spacer {
   flex: 1 1 auto;
 }
 
-.container{
-  width:80%;
+.container {
+  width: 80%;
   margin: auto;
+}
+.myButton {
+  display: flex;
+}
+.myButton .mat-icon {
+  margin-right: 1vh;
 }
