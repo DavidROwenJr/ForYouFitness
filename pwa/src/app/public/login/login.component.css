@@ -1,0 +1,25 @@
+.mat-card {
+  margin-top: 2vh;
+}
+.mat-card img {
+  width: 100%;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+  margin-bottom: 1vh;
+  max-width: 700px;
+}
+.spacer {
+  flex: 1 1 auto;
+}
+.mat-form-field {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.mat-card-actions {
+  background-color: black;
+  border-radius: 5px;
+  padding: 1vh;
+  margin: .1vh;
+}

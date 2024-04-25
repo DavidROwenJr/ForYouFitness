@@ -1499,7 +1499,7 @@ body {
 }
 
 .mat-card {
-  background: #393939;
+  background: #0d0d0d;
   color: white;
 }
 .mat-card:not([class*="mat-elevation-z"]) {

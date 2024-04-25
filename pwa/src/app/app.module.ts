@@ -16,6 +16,8 @@ import { AboutMeComponent } from './public/about-me/about-me.component';
 import { OfferingsComponent } from './public/offerings/offerings.component';
 import { ContactComponent } from './public/contact/contact.component';
 import { LoginComponent } from './public/login/login.component';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,6 +40,8 @@ import { LoginComponent } from './public/login/login.component';
     MatIconModule,
     MatButtonModule,
     MatDividerModule,
+    MatInputModule,
+    MatFormFieldModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
