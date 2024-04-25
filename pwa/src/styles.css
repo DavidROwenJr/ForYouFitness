@@ -3269,7 +3269,7 @@ td.mat-footer-cell {
 }
 
 .mat-toolbar {
-  background: #393939;
+  background: #0d0d0d;
   color: white;
 }
 .mat-toolbar.mat-primary {
@@ -3368,6 +3368,7 @@ td.mat-footer-cell {
 .material-icons .mat-badge-content {
   font-family: "Roboto";
 }
-html{
+html, body {
   background-color: black;
+  margin: 0;
 }

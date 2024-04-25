@@ -1,64 +1,13 @@
-#spinner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 25%;
+img.toolbar {
+  height: 100%;
+  width: auto;
+  margin-right: 2vh;
 }
-.mat-card {
-  width: 50%;
-  background-color: #090909;
+.spacer {
+  flex: 1 1 auto;
+}
+
+.container{
+  width:80%;
   margin: auto;
-  margin-top: 25%;
-  animation: fadeIn 3s;
-  -webkit-animation: fadeIn 3s;
-  -moz-animation: fadeIn 3s;
-  -o-animation: fadeIn 3s;
-  -ms-animation: fadeIn 3s;
-}
-img {
-  width: 100%;
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-ms-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }

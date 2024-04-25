@@ -6,14 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent implements OnInit {
-  isLoading = true;
   constructor() {}
 
   ngOnInit(): void {
-    const counterFn = () => {
-      console.log('simulated loading time for 2 seconds');
-      this.isLoading = false;
-    };
-    setTimeout(counterFn, 3000);
   }
 }

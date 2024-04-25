@@ -1,8 +1,16 @@
-<div id="spinner" *ngIf="isLoading">
-    <mat-spinner></mat-spinner>
-</div>
-<mat-card *ngIf="!isLoading">
-    <mat-card-content>
-        <img src="../../../assets/ForYouFitnessLogo.png" />
-    </mat-card-content>
-</mat-card>
+<mat-toolbar>
+    <div class="container">
+        <mat-toolbar-row>
+            <img class="toolbar" src="../../../assets/ForYouFitnessLogo.png" />
+            <button mat-stroked-button>For You</button>
+            <button mat-stroked-button>About Me</button>
+            <button mat-stroked-button>Offerings</button>
+            <button mat-stroked-button>Contact</button>
+            <span class="spacer"></span>
+            <mat-divider [vertical]="true"></mat-divider>
+            <button mat-icon-button>
+                <mat-icon>login</mat-icon>
+            </button>
+        </mat-toolbar-row>
+    </div>
+</mat-toolbar>
