@@ -1,8 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HeroComponent } from './public/components/hero/hero.component';
-import { HomeComponent } from './public/components/home/home.component';
-import { PageNotFoundComponent } from './public/components/page-not-found/page-not-found.component';
+import { HomeComponent } from './public/home/home.component';
+import { PageNotFoundComponent } from './public/page-not-found/page-not-found.component';
+import { AboutMeComponent } from './public/about-me/about-me.component';
+import { OfferingsComponent } from './public/offerings/offerings.component';
+import { ContactComponent } from './public/contact/contact.component';
+import { LoginComponent } from './public/login/login.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -10,6 +13,22 @@ const routes: Routes = [
     path: '',
     redirectTo: '/home',
     pathMatch: 'full',
+  },
+  {
+    path: 'about',
+    component: AboutMeComponent,
+  },
+  {
+    path: 'offerings',
+    component: OfferingsComponent,
+  },
+  {
+    path: 'contact',
+    component: ContactComponent,
+  },
+  {
+    path: 'login',
+    component: LoginComponent,
   },
   {
     path: '**',

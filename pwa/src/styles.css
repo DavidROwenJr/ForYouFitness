@@ -619,6 +619,7 @@ input.mat-input-element {
   white-space: nowrap;
   outline: 0;
   -webkit-appearance: none;
+  appearance: none;
   -moz-appearance: none;
 }
 
