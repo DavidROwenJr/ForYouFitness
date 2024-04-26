@@ -1,5 +1,16 @@
 img {
   width: 100%;
   margin-top: 2vh;
-  opacity: .3;
+  opacity: 0.3;
+}
+.spacer{
+    flex: 1 1 auto;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+.mat-card {
+  margin: 2vh auto;
 }
