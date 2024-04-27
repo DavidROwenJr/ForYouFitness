@@ -4,20 +4,24 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-import { HomeComponent } from './public/home/home.component';
-import { PageNotFoundComponent } from './public/page-not-found/page-not-found.component';
+import { HomeComponent } from './public/pages/home/home.component';
+import { PageNotFoundComponent } from './public/pages/page-not-found/page-not-found.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatCommonModule } from '@angular/material/core';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
-import { AboutMeComponent } from './public/about-me/about-me.component';
-import { OfferingsComponent } from './public/offerings/offerings.component';
-import { ContactComponent } from './public/contact/contact.component';
-import { LoginComponent } from './public/login/login.component';
+import { AboutMeComponent } from './public/pages/about-me/about-me.component';
+import { OfferingsComponent } from './public/pages/offerings/offerings.component';
+import { ContactComponent } from './public/pages/contact/contact.component';
+import { LoginComponent } from './public/pages/login/login.component';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { SlideShowComponent } from './public/components/slide-show/slide-show.component';
+import { UserProfileComponent } from './public/pages/user-profile/user-profile.component';
+import { UserCardComponent } from './public/components/user-card/user-card.component';
+import { MatTabsModule } from '@angular/material/tabs';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +31,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     OfferingsComponent,
     ContactComponent,
     LoginComponent,
+    SlideShowComponent,
+    UserProfileComponent,
+    UserCardComponent,
   ],
   imports: [
     BrowserModule,
@@ -42,6 +49,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     MatDividerModule,
     MatInputModule,
     MatFormFieldModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent],

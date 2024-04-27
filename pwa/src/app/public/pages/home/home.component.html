@@ -1,12 +1,5 @@
 <div class="container">
-    <mat-card>
-        <mat-card-title>Hero/Slideshow</mat-card-title>
-        <mat-card-subtitle></mat-card-subtitle>
-        <mat-card-content>...</mat-card-content>
-        <mat-card-actions align="end">
-            <button mat-flat-button color="primary">Gallery</button>
-        </mat-card-actions>
-    </mat-card>
+    <app-slide-show></app-slide-show>
     <mat-card>
         <mat-card-title>Executive Summary</mat-card-title>
         <mat-card-subtitle></mat-card-subtitle>
@@ -26,22 +19,10 @@
             <button mat-flat-button color="primary" [routerLink]="'/contact'">Contact</button>
         </mat-card-actions>
     </mat-card>
-    <mat-card>
-        <mat-card-title>Offerings</mat-card-title>
-        <mat-card-subtitle></mat-card-subtitle>
-        <mat-card-content>
-            <code><strong>TODO</strong> - Break into two cards side by side</code>
-            <ul>
-                <li>Training Programs</li>
-                <ul>
-                    <li>Youth - Health</li>
-                    <li>Youth - Athletic</li>
-                    <li>Adults - Health</li>
-                    <li>Adults - Endurance</li>
-                    <li>Adults - Strength</li>
-                    <li>Adults - Fat Loss</li>
-                </ul>
-                <li>Nutrition Coaching (experienced in)</li>
+    <div class="offerings">
+        <mat-card id="nutrition">
+            <mat-card-title>Nutrition Coaching</mat-card-title>
+            <mat-card-content>
                 <ul>
                     <li>Vegetarian, Pescatarian, Vegan, etc.</li>
                     <li>Low Carb, Ketogenic, etc.</li>
@@ -50,20 +31,43 @@
                     <li>Atkins</li>
                     <li>Intermittent Fasting</li>
                 </ul>
-            </ul>
-        </mat-card-content>
-        <mat-card-actions align="end">
-            <button mat-flat-button color="primary" [routerLink]="'/offerings'">Offerings</button>
-        </mat-card-actions>
-    </mat-card>
+            </mat-card-content>
+        </mat-card>
+        <span class="spacer"></span>
+        <mat-card id="resistance">
+            <mat-card-title>Resistance Training</mat-card-title>
+            <mat-card-content>
+                <ul>
+                    <li>Youth - Health</li>
+                    <li>Youth - Athletic</li>
+                    <li>Adults - Health</li>
+                    <li>Adults - Endurance</li>
+                    <li>Adults - Strength</li>
+                    <li>Adults - Fat Loss</li>
+                </ul>
+            </mat-card-content>
+        </mat-card>
+
+    </div>
+
     <mat-card>
         <mat-card-title>Personal Transformation</mat-card-title>
         <mat-card-subtitle></mat-card-subtitle>
         <mat-card-content>
-            ...
+            <ul>
+                <li>2005 - 16yo - 200lbs</li>
+                <li>2007 - 18yo - 280lbs</li>
+                <li>2008 - 19yo - 310lbs</li>
+                <li>2010 - 21yo - 350lbs</li>
+                <li>2012 - 23yo - 250lbs</li>
+                <li>2014 - 25yo - 210lbs</li>
+                <li>2020 - 31yo - 250lbs</li>
+                <li>2023 - 34yo - 280lbs</li>
+                <li>2024 - 35yo - 225lbs</li>
+            </ul>
         </mat-card-content>
         <mat-card-actions align="end">
-            <button mat-flat-button color="accent" [routerLink]="'/contact'">Contact</button>
+            <button mat-flat-button color="primary" [routerLink]="'/contact'">Contact</button>
         </mat-card-actions>
     </mat-card>
 </div>

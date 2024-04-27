@@ -1,0 +1,15 @@
+.mat-card {
+  text-align: center;
+  font-style: italic;
+  color: gray;
+  margin-top: 2vh;
+  padding-top:1.5vh;
+  padding-bottom:1vh;
+}
+.mat-card:hover{
+    background-color: #4B0075;
+}
+img {
+  width: 100%;
+  border-radius: 5px;
+}
