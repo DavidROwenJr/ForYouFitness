@@ -7,7 +7,7 @@ img {
   flex: 1 1 auto;
 }
 .container {
-  width: 80%;
+  width: 90%;
   margin: auto;
   display: block;
 }
@@ -20,5 +20,25 @@ img {
 #resistance,
 #nutrition {
   width: 40%;
+  display: inline-block;
+  margin: 1vh;
+  vertical-align: top;
+  background-color: #4b0075;
+}
+.experience{
   display: block;
+}
+.experience > mat-card-content{
+  display: flex;
+}
+.our-coach > mat-card-content{
+  display: flex;
+}
+.our-coach mat-card-content ul{
+  width: 40%;
+  display: inline-block;
+}
+app-executive-profile{
+  width:50%;
+  display: inline-block
 }

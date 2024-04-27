@@ -22,6 +22,7 @@ import { SlideShowComponent } from './public/components/slide-show/slide-show.co
 import { UserProfileComponent } from './public/pages/user-profile/user-profile.component';
 import { UserCardComponent } from './public/components/user-card/user-card.component';
 import { MatTabsModule } from '@angular/material/tabs';
+import { ExecutiveProfileComponent } from './public/components/executive-profile/executive-profile.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,6 +35,7 @@ import { MatTabsModule } from '@angular/material/tabs';
     SlideShowComponent,
     UserProfileComponent,
     UserCardComponent,
+    ExecutiveProfileComponent,
   ],
   imports: [
     BrowserModule,
