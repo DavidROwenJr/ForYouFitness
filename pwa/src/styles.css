@@ -23,6 +23,48 @@
   font-style: italic;
   font-weight: bold;
 }
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-style: normal;
+  src: url("./assets/fonts/Ubuntu-Light.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-style: normal;
+  src: url("./assets/fonts/Ubuntu-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  font-style: normal;
+  src: url("./assets/fonts/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-style: normal;
+  src: url("./assets/fonts/Ubuntu-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-style: italic;
+  src: url("./assets/fonts/Ubuntu-LightItalic.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-style: italic;
+  src: url("./assets/fonts/Ubuntu-LightItalic.ttf");
+}
+
 /**
 * Generated theme by Material Theme Generator
 * https://materialtheme.arcsine.dev
@@ -34,7 +76,6 @@
 * Fork at: https://materialtheme.arcsine.dev/?c=YHBhbGV0dGU$YHByaW1hcnk$YF48IzRiMDA3NSIsIj9lcjwjYzliM2Q2IiwiO2VyPCMzMzAwNTh$LCIlPmBePCNmZmU0MDAiLCI~ZXI8I2ZmZjdiMyIsIjtlcjwjZmZkOTAwfiwid2Fybj5gXjwjY2UwMDAwIiwiP2VyPCNmMGIzYjMiLCI7ZXI8I2JjMDAwMH4sIj9UZXh0PCMwMDAwMDAiLCI~PTwjZmFmYWZhIiwiO1RleHQ8I2ZmZmZmZiIsIjs9PCMyYzJjMmN$LCJmb250cz5bYEA8KC00IiwiZmFtaWx5PEJhc2ljfixgQDwoLTMiLCJmYW1pbHk8QmFzaWN$LGBAPCgtMiIsImZhbWlseTxCYXNpY34sYEA8KC0xIiwiZmFtaWx5PEJhc2ljfixgQDxoZWFkbGluZSIsImZhbWlseTxCYXNpY34sYEA8dGl0bGUiLCJmYW1pbHk8QmFzaWN$LGBAPHN1YiktMiIsImZhbWlseTxCYXNpY34sYEA8c3ViKS0xIiwiZmFtaWx5PEJhc2ljfixgQDxib2R5LTIiLCJmYW1pbHk8QmFzaWN$LGBAPGJvZHktMSIsImZhbWlseTxCYXNpY34sYEA8YnV0dG9uIiwiZmFtaWx5PEJhc2ljfixgQDxjYXB0aW9uIiwiZmFtaWx5PEJhc2ljfixgQDxpbnB1dCIsImZhbWlseTxCYXNpYyIsInNpemU$bnVsbH1dLCJpY29uczxGaWxsZWQiLCI~bmVzcz5mYWxzZSwidmVyc2lvbj4xMX0=
 */
 @import "https://fonts.googleapis.com/icon?family=Material+Icons";
-@import url("https://fonts.googleapis.com/css2?family=Basic:wght@300;400;500&display=swap");
 .mat-badge-content {
   font-weight: 600;
   font-size: 12px;
@@ -51,7 +92,7 @@
 .mat-h1,
 .mat-headline,
 .mat-typography h1 {
-  font: 400 24px/32px Basic;
+  font: 400 24px/32px Ubuntu;
   letter-spacing: 0em;
   margin: 0 0 16px;
 }
@@ -59,7 +100,7 @@
 .mat-h2,
 .mat-title,
 .mat-typography h2 {
-  font: 500 20px/32px Basic;
+  font: 500 20px/32px Ubuntu;
   letter-spacing: 0.0075em;
   margin: 0 0 16px;
 }
@@ -67,7 +108,7 @@
 .mat-h3,
 .mat-subheading-2,
 .mat-typography h3 {
-  font: 400 16px/28px Basic;
+  font: 400 16px/28px Ubuntu;
   letter-spacing: 0.0094em;
   margin: 0 0 16px;
 }
@@ -75,33 +116,33 @@
 .mat-h4,
 .mat-subheading-1,
 .mat-typography h4 {
-  font: 500 15px/24px Basic;
+  font: 500 15px/24px Ubuntu;
   letter-spacing: 0.0067em;
   margin: 0 0 16px;
 }
 
 .mat-h5,
 .mat-typography h5 {
-  font: 400 calc(14px * 0.83) / 20px Basic;
+  font: 400 calc(14px * 0.83) / 20px Ubuntu;
   margin: 0 0 12px;
 }
 
 .mat-h6,
 .mat-typography h6 {
-  font: 400 calc(14px * 0.67) / 20px Basic;
+  font: 400 calc(14px * 0.67) / 20px Ubuntu;
   margin: 0 0 12px;
 }
 
 .mat-body-strong,
 .mat-body-2 {
-  font: 500 14px/24px Basic;
+  font: 500 14px/24px Ubuntu;
   letter-spacing: 0.0179em;
 }
 
 .mat-body,
 .mat-body-1,
 .mat-typography {
-  font: 400 14px/20px Basic;
+  font: 400 14px/20px Ubuntu;
   letter-spacing: 0.0179em;
 }
 .mat-body p,
@@ -112,40 +153,40 @@
 
 .mat-small,
 .mat-caption {
-  font: 400 12px/20px Basic;
+  font: 400 12px/20px Ubuntu;
   letter-spacing: 0.0333em;
 }
 
 .mat-display-4,
 .mat-typography .mat-display-4 {
-  font: 300 112px/112px Basic;
+  font: 300 112px/112px Ubuntu;
   letter-spacing: -0.0134em;
   margin: 0 0 56px;
 }
 
 .mat-display-3,
 .mat-typography .mat-display-3 {
-  font: 400 56px/56px Basic;
+  font: 400 56px/56px Ubuntu;
   letter-spacing: -0.0089em;
   margin: 0 0 64px;
 }
 
 .mat-display-2,
 .mat-typography .mat-display-2 {
-  font: 400 45px/48px Basic;
+  font: 400 45px/48px Ubuntu;
   letter-spacing: 0em;
   margin: 0 0 64px;
 }
 
 .mat-display-1,
 .mat-typography .mat-display-1 {
-  font: 400 34px/40px Basic;
+  font: 400 34px/40px Ubuntu;
   letter-spacing: 0.0074em;
   margin: 0 0 64px;
 }
 
 .mat-bottom-sheet-container {
-  font: 400 14px/20px Basic;
+  font: 400 14px/20px Ubuntu;
   letter-spacing: 0.0179em;
 }
 
@@ -175,8 +216,8 @@
 .mat-card-content {
   font-size: 14px;
 }
-.mat-card-content{
-  font-family: 'Basic';
+.mat-card-content {
+  font-family: "Ubuntu";
 }
 .mat-checkbox-layout .mat-checkbox-label {
   line-height: 24px;
@@ -217,18 +258,18 @@
 }
 
 .mat-dialog-title {
-  font: 500 20px/32px Basic;
+  font: 500 20px/32px Ubuntu;
   letter-spacing: 0.0075em;
 }
 
 .mat-expansion-panel-header {
-  font-family: Basic;
+  font-family: Ubuntu;
   font-size: 15px;
   font-weight: 500;
 }
 
 .mat-expansion-panel-content {
-  font: 400 14px/20px Basic;
+  font: 400 14px/20px Ubuntu;
   letter-spacing: 0.0179em;
 }
 
@@ -236,7 +277,7 @@
   font-size: inherit;
   font-weight: 400;
   line-height: 1.125;
-  font-family: Basic;
+  font-family: Ubuntu;
   letter-spacing: 1.5px;
 }
 
@@ -454,14 +495,14 @@ input.mat-input-element {
 }
 
 .mat-menu-item {
-  font-family: Basic;
+  font-family: Ubuntu;
   font-size: 14px;
   font-weight: 400;
 }
 
 .mat-paginator,
 .mat-paginator-page-size .mat-select-trigger {
-  font-family: Basic;
+  font-family: Ubuntu;
   font-size: 12px;
 }
 
@@ -494,7 +535,7 @@ input.mat-input-element {
 
 .mat-tab-label,
 .mat-tab-link {
-  font-family: Basic;
+  font-family: Ubuntu;
   font-size: 14px;
   font-weight: 500;
 }
@@ -506,7 +547,7 @@ input.mat-input-element {
 .mat-toolbar h4,
 .mat-toolbar h5,
 .mat-toolbar h6 {
-  font: 500 20px/32px Basic;
+  font: 500 20px/32px Ubuntu;
   letter-spacing: 0.0075em;
   margin: 0;
 }
@@ -552,7 +593,7 @@ input.mat-input-element {
 }
 
 .mat-list-base .mat-subheader {
-  font-family: Basic;
+  font-family: Ubuntu;
   font-size: 14px;
   font-weight: 500;
 }
@@ -595,12 +636,12 @@ input.mat-input-element {
 }
 
 .mat-optgroup-label {
-  font: 500 14px/24px Basic;
+  font: 500 14px/24px Ubuntu;
   letter-spacing: 0.0179em;
 }
 
 .mat-simple-snackbar {
-  font-family: Basic;
+  font-family: Ubuntu;
   font-size: 14px;
 }
 

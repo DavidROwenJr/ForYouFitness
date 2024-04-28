@@ -1,24 +1,27 @@
-
-.mat-card{
-    background-color: black;
+.mat-card {
+  background-color: black;
 }
-.name, .nasm{
-    min-width: 50%;
-    max-width: 50%;
-    text-align: center;
+.name,
+.nasm {
+  min-width: 50%;
+  max-width: 50%;
+  text-align: center;
 }
-.mat-card-content img{
-    width: 80%;
-    margin: auto;
-    display: flex;
+.mat-card-content img {
+  width: 80%;
+  margin: auto;
+  display: flex;
 }
-img#nasm{
-    width: 50%;
-    right: 0;
-    bottom: 0;
-    position: absolute;
-    margin: 1vh;
+.mat-card-subtitle {
+  color: #ffe400;
 }
-.mat-card-footer{
-    display: contents;
+img#nasm {
+  width: 50%;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  margin: 1vh;
+}
+.mat-card-footer {
+  display: contents;
 }

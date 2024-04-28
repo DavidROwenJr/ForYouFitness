@@ -18,5 +18,5 @@ img.toolbar {
   display: flex;
 }
 .myButton .mat-icon {
-  margin-right: 1vh;
+  margin: auto 1vh;
 }
