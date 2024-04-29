@@ -23,6 +23,12 @@ import { UserProfileComponent } from './public/pages/user-profile/user-profile.c
 import { UserCardComponent } from './public/components/user-card/user-card.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { ExecutiveProfileComponent } from './public/components/executive-profile/executive-profile.component';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { FormBuilder, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { JsonPipe } from '@angular/common';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatOptionModule } from '@angular/material/core';
+import { MatSelectModule } from '@angular/material/select';
 @NgModule({
   declarations: [
     AppComponent,
@@ -51,7 +57,14 @@ import { ExecutiveProfileComponent } from './public/components/executive-profile
     MatDividerModule,
     MatInputModule,
     MatFormFieldModule,
-    MatTabsModule
+    MatTabsModule,
+    MatButtonToggleModule,
+    FormsModule,
+    ReactiveFormsModule,
+    JsonPipe,
+    MatCheckboxModule,
+    MatOptionModule,
+    MatSelectModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
