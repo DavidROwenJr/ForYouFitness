@@ -1,1 +1,20 @@
-<p>about-me works!</p>
+<div class="cardbook">
+    <mat-card *ngFor="let card of this.cardbook">
+        <mat-card-content>
+            <div class="card">
+                <h2>{{card.timeframe}}</h2>
+                <h4>{{card.startYear}} - {{card.endYear}}</h4>
+                <img src={{card.picture}} />
+                <div class="lifestyle">{{card.lifestyle}}</div>
+            </div>
+            <div class="summary">
+                <div class="description">
+                    {{card.summary}}
+                </div>
+                <div class="stats">
+                    STATS
+                </div>
+            </div>
+        </mat-card-content>
+    </mat-card>
+</div>

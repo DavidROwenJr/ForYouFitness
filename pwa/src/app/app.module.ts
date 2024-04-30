@@ -29,6 +29,7 @@ import { JsonPipe } from '@angular/common';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatOptionModule } from '@angular/material/core';
 import { MatSelectModule } from '@angular/material/select';
+import { BaseballCardComponent } from './public/components/baseball-card/baseball-card.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,6 +43,7 @@ import { MatSelectModule } from '@angular/material/select';
     UserProfileComponent,
     UserCardComponent,
     ExecutiveProfileComponent,
+    BaseballCardComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,7 @@
+img {
+  width: 100%;
+}
+.mat-card {
+  background-color: darkgray;
+  border: 5px solid white;
+}
