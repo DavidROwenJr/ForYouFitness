@@ -1,6 +1,9 @@
 .cardbook {
   margin-top: 2vh;
 }
+#temp{
+  display: unset;
+}
 mat-card {
   margin: 2vh;
 }

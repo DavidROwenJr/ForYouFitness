@@ -42,3 +42,15 @@ app-executive-profile{
   width:50%;
   display: inline-block
 }
+mat-card#transformation mat-card-content{
+  display: flex;
+  justify-content: space-around;
+}
+#beforePic, #afterPic{
+  opacity: unset;
+  margin: unset;
+  width: 40%;
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: #4b0075;
+}
