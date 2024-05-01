@@ -1,5 +1,5 @@
+<app-slide-show></app-slide-show>
 <div class="container">
-    <app-slide-show></app-slide-show>
     <mat-card>
         <mat-card-title>For You Fitness</mat-card-title>
         <mat-card-subtitle></mat-card-subtitle>
@@ -20,8 +20,9 @@
     </mat-card>
     <mat-card class="our-coach">
         <mat-card-title>The Coach</mat-card-title>
+        <mat-card-subtitle>David Owen, CPT</mat-card-subtitle>
         <mat-card-content>
-            <app-executive-profile></app-executive-profile>
+            <img id="execProfile" src="../../../../assets/images/ForYouFitnessLogo_WhiteOnBlack.png" />
             <ul>
                 <li>20 years trial and error</li>
                 <li>Successful weightloss as a working professional</li>
@@ -38,7 +39,7 @@
     </mat-card>
     <mat-card class="experience">
         <mat-card-title>Our Training Services</mat-card-title>
-        <mat-card-content class="offerings">
+        <mat-card-content>
             <mat-card id="resistance">
                 <mat-card-title>Programs</mat-card-title>
                 <mat-card-content>
@@ -76,8 +77,8 @@
         <mat-card-title>Personal Transformation</mat-card-title>
         <mat-card-subtitle></mat-card-subtitle>
         <mat-card-content>
-           <img id="beforePic" src="../../../../assets/images/ForYouFitnessLogo_Mono-Black.png" />
-           <img id="afterPic" src="../../../../assets/images/ForYouFitnessLogo_Mono-White.png" />
+            <img id="beforePic" src="../../../../assets/images/ForYouFitnessLogo_Mono-Black.png" />
+            <img id="afterPic" src="../../../../assets/images/ForYouFitnessLogo_Mono-White.png" />
         </mat-card-content>
         <mat-card-actions align="end">
             <button mat-flat-button color="primary" [routerLink]="'/about'">About Me</button>

@@ -22,14 +22,13 @@ import { SlideShowComponent } from './public/components/slide-show/slide-show.co
 import { UserProfileComponent } from './public/pages/user-profile/user-profile.component';
 import { UserCardComponent } from './public/components/user-card/user-card.component';
 import { MatTabsModule } from '@angular/material/tabs';
-import { ExecutiveProfileComponent } from './public/components/executive-profile/executive-profile.component';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { FormBuilder, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { JsonPipe } from '@angular/common';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatOptionModule } from '@angular/material/core';
 import { MatSelectModule } from '@angular/material/select';
-
+import { MatExpansionModule } from '@angular/material/expansion';
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,7 +41,6 @@ import { MatSelectModule } from '@angular/material/select';
     SlideShowComponent,
     UserProfileComponent,
     UserCardComponent,
-    ExecutiveProfileComponent,
   ],
   imports: [
     BrowserModule,
@@ -66,6 +64,7 @@ import { MatSelectModule } from '@angular/material/select';
     MatCheckboxModule,
     MatOptionModule,
     MatSelectModule,
+    MatExpansionModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

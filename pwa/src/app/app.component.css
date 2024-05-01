@@ -1,22 +1,16 @@
-img.toolbar {
-  width: auto;
-  height: 60px;
-}
-.mat-toolbar-row .mat-button {
-  line-height: 60px;
-}
-.spacer {
-  flex: 1 1 auto;
-}
-
-.container {
+.container,
+.header {
   width: 80%;
   margin: auto;
   color: white;
 }
-.myButton {
-  display: flex;
+.mat-toolbar img {
+  height: 75px;
+  width: auto;
 }
-.myButton .mat-icon {
-  margin: auto 1vh;
+.spacer {
+  flex: 1 1 auto;
+}
+.header {
+  display: flex;
 }

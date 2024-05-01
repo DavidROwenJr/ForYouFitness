@@ -1,22 +1,17 @@
 <mat-toolbar>
-    <div class="container">
-        <mat-toolbar-row>
-            <button mat-button color="primary">
-                <img class="toolbar" src="../../../assets/images/ForYouFitnessLogo.png" />
-            </button>
-            <a mat-button routerLink="/home">For
-                You</a>
-            <a mat-button routerLink="/about">About Me</a>
-            <a mat-button routerLink="/offerings">Offerings</a>
-            <a mat-button routerLink="/contact">Contact</a>
-            <span class="spacer"></span>
-            <mat-divider [vertical]="true"></mat-divider>
-            <a mat-button color="accent" routerLink="/login">
-                <span class="myButton">
-                    <mat-icon>login</mat-icon>Login
-                </span>
-            </a>
-        </mat-toolbar-row>
+    <div class="header">
+        <button mat-button color="primary">
+            <img class="toolbar" src="../../../assets/images/ForYouFitnessLogo.png" />
+        </button>
+        <button mat-button routerLink="/home">For
+            You</button>
+        <button mat-button routerLink="/about">About Me</button>
+        <button mat-button routerLink="/offerings">Offerings</button>
+        <button mat-button routerLink="/contact">Contact</button>
+        <span class="spacer"></span>
+        <button mat-button color="accent" routerLink="/login">
+            <mat-icon>login</mat-icon>Login
+        </button>
     </div>
 </mat-toolbar>
 <div class="container">

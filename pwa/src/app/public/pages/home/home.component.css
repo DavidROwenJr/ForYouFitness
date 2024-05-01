@@ -1,56 +1,42 @@
+mat-card {
+  margin: 2vh 0;
+}
 img {
   width: 100%;
-  margin-top: 2vh;
-  opacity: 0.3;
+  border: 5px solid black;
+  border-radius: 5px;
 }
-.spacer {
-  flex: 1 1 auto;
-}
-.container {
-  width: 90%;
-  margin: auto;
-  display: block;
-}
-.mat-card {
-  margin: 2vh auto;
-}
-.offerings {
+mat-card.our-coach mat-card-content {
   display: flex;
+  vertical-align: top;
+}
+mat-card.our-coach ul {
+  width: 60%;
+  margin-top: unset;
+}
+mat-card.experience > mat-card-content {
+  display: flex;
+  justify-content: space-around;
 }
 #resistance,
 #nutrition {
-  width: 40%;
-  display: inline-block;
-  margin: 1vh;
-  vertical-align: top;
+  width: 45%;
   background-color: #4b0075;
 }
-.experience{
-  display: block;
+#resistance > mat-card-title,
+#nutrition > mat-card-title {
+  color: #ffe400;
+  text-align: center;
+  border-bottom: 3px solid black;
+  margin-top: 1vh;
+  padding-bottom: 1vh;
 }
-.experience > mat-card-content{
-  display: flex;
-}
-.our-coach > mat-card-content{
-  display: flex;
-}
-.our-coach mat-card-content ul{
-  width: 40%;
-  display: inline-block;
-}
-app-executive-profile{
-  width:50%;
-  display: inline-block
-}
-mat-card#transformation mat-card-content{
+mat-card#transformation mat-card-content {
   display: flex;
   justify-content: space-around;
 }
 #beforePic, #afterPic{
-  opacity: unset;
-  margin: unset;
-  width: 40%;
-  border: 5px solid black;
-  border-radius: 10px;
+  width:45%;
+  height: auto;
   background-color: #4b0075;
 }
