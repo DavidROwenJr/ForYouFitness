@@ -40,3 +40,6 @@ mat-card#transformation mat-card-content {
   height: auto;
   background-color: #4b0075;
 }
+.slideshow{
+  margin-top:2vh;
+}

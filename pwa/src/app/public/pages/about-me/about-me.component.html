@@ -5,7 +5,7 @@
                 <h2>{{card.timeframe}}</h2>
                 <h4>{{card.startYear}} - {{card.endYear}}</h4>
                 <img src={{card.picture}} />
-                <div class="lifestyle">{{card.lifestyle}}</div>
+                <h5>{{card.lifestyle}}</h5>
             </div>
             <div class="summary">
                 <div class="description">
@@ -15,16 +15,23 @@
                     <mat-accordion>
                         <mat-expansion-panel [expanded]="false">
                             <mat-expansion-panel-header>
-                                <mat-panel-title>Programs</mat-panel-title>
+                                <mat-panel-title>Training</mat-panel-title>
+                                <mat-panel-description>{{card.programs.length}} Programs</mat-panel-description>
                             </mat-expansion-panel-header>
-                            <p>TEST</p>
+                            <ul>
+                                <li *ngFor="let program of card.programs">{{program}}</li>
+                            </ul>
                         </mat-expansion-panel>
                     </mat-accordion>
                     <mat-accordion>
                         <mat-expansion-panel>
                             <mat-expansion-panel-header>
-                                <mat-panel-title>Diets</mat-panel-title>
+                                <mat-panel-title>Nutrition</mat-panel-title>
+                                <mat-panel-description>{{card.diets.length}} Diet(s)</mat-panel-description>
                             </mat-expansion-panel-header>
+                            <ul>
+                                <li *ngFor="let diet of card.diets">{{diet}}</li>
+                            </ul>
                         </mat-expansion-panel>
                     </mat-accordion>
                 </div>

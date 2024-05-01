@@ -1,0 +1,30 @@
+.formLayout {
+  display: block;
+}
+.contactForm,
+.services {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+.spacer {
+  flex: 1 1 auto;
+}
+.row {
+  width: 100%;
+}
+h4 {
+  margin: 1vh auto 0 auto;
+  padding-bottom: 1vh;
+  border-bottom: 1px solid #FFE400;
+  font-family: "ForYouFont";
+}
+.youthList, .adultList {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+strong{
+    text-decoration: underline #FFE400;
+}
+

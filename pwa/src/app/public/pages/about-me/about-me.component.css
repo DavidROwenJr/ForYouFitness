@@ -1,0 +1,51 @@
+.cardbook mat-card {
+  margin: 1vh;
+}
+.cardbook mat-card mat-card-content {
+  display: flex;
+}
+img {
+  width: 100%;
+  border-radius: 5px;
+}
+.card {
+  width: 30%;
+  background-color: #4b0075;
+  border: 5px solid black;
+  border-radius: 5px;
+  margin: 1vh;
+  text-align: center;
+}
+.summary{
+    width: 65%;
+    padding: 1vh;
+    border-radius: 5px;
+    margin-right:0;
+    margin-left: auto;
+}
+.stats{
+    margin: 1vh;
+}
+mat-accordion{
+    margin: 1vh;
+}
+h2 {
+  font-family: "ForYouFont" !important;
+  margin: 1vh !important;
+  margin-bottom: unset !important;
+}
+h4 {
+  margin-left: 1vh !important;
+  margin-top: unset !important;
+  margin-bottom: 1vh !important;
+  font-family: "Ubuntu" !important;
+  font-style: italic !important;
+  color: #ffe400 !important;
+}
+h5{
+    font-family: "Ubuntu" !important;
+    font-weight: lighter !important;
+    margin-bottom: 1vh;
+    font-style: italic;
+    font-size: medium;
+}

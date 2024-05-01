@@ -69,11 +69,11 @@ body {
 }
 mat-card-title{
   font-family: 'ForYouFont'!important;
-  margin: 1vh!important;
+  margin: 2vh!important;
   margin-bottom: unset!important;
 }
 mat-card-subtitle{
-  margin-left: 1vh!important;
+  margin-left: 2vh!important;
   margin-top: unset!important;
   margin-bottom: 1vh!important;
   font-family: 'Ubuntu'!important;
@@ -83,6 +83,9 @@ mat-card-subtitle{
 mat-card-content{
   font-family: 'Ubuntu'!important;
   font-weight: lighter!important;
+}
+mat-card-actions{
+  margin: 2vh!important;
 }
 img#execProfile{
   width: 40%;
